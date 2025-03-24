@@ -2,3 +2,7 @@ site_name: side-projects/data-mesh
 
 nav:
   - Homepage: "index.md"
+  - organization.md
+  - Section 1:
+    - "section1/page1.md"
+    - "section1/page2.md"
