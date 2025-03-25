@@ -1,1 +1,0 @@
-# This is index home page of section 1
