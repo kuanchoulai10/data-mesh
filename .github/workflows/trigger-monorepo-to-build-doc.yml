@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger update-submodule workflow
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -L \
             -X POST \
