@@ -1,5 +1,5 @@
 site_name: side-projects/data-mesh
-
+docs_dir: .
 nav:
-  - index.md
-  - org.md
+  - README.md
+  - docs/org.md
