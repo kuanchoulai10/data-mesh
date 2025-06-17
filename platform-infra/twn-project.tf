@@ -5,7 +5,7 @@ module "project-factory" {
 
   name              = "kcl-tw-data"
   random_project_id = true
-  folder_id         = google_folder.data.folder_id
+  org_id = data.google_organization.org.org_id
   billing_account   = data.google_billing_account.kcl.id
   sa_role           = "roles/editor"
   activate_apis = [
