@@ -1,3 +1,0 @@
-# Organization
-
-![](./org.drawio.svg)

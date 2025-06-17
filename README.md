@@ -1,3 +1,2 @@
-# [Data Mesh](https://github.com/kuanchoulai10/data-mesh)
+# [Unified SQL-based Data Pipelines on BigQuery](https://github.com/kuanchoulai10/data-mesh)
 
-Homepage
