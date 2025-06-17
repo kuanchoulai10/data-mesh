@@ -1,3 +1,4 @@
+# --8<-- [start:aws-iam-policy-role-bq-omni-conn]
 resource "aws_iam_policy" "bigquery_omni_connection_policy" {
   name = "bigquery-omni-connection-policy"
 
@@ -54,7 +55,11 @@ resource "aws_iam_role_policy_attachment" "bigquery_omni_connection_role_attach"
   role       = aws_iam_role.bigquery_omni_connection_role.name
   policy_arn = aws_iam_policy.bigquery_omni_connection_policy.arn
 }
+# --8<-- [end:aws-iam-policy-role-bq-omni-conn]
 
+
+
+# --8<-- [start:gcp-bq-conn]
 resource "google_bigquery_connection" "connection" {
   connection_id = "bigquery-omni-aws-connection"
   friendly_name = "bigquery-omni-aws-connection"
@@ -70,3 +75,4 @@ resource "google_bigquery_connection" "connection" {
     }
   }
 }
+# --8<-- [end:gcp-bq-conn]

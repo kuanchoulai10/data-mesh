@@ -74,29 +74,38 @@ module "project_iam_bindings" {
   }
 }
 
+# --8<-- [start:gcp-bq-conn-images]
 resource "google_bigquery_connection" "bq_object_tables" {
   connection_id = "bg-object-tables"
   location      = "US"
   cloud_resource {}
 }
+# --8<-- [end:gcp-bq-conn-images]
 
+# --8<-- [start:gcp-bq-conn-vision]
 resource "google_bigquery_connection" "bq_cloud_vision" {
   connection_id = "bg-cloud-vision"
   location      = "US"
   cloud_resource {}
 }
+# --8<-- [end:gcp-bq-conn-vision]
 
+# --8<-- [start:gcp-bq-conn-doc-ai]
 resource "google_bigquery_connection" "document_ai" {
   connection_id = "document_ai"
   location      = "US"
   cloud_resource {}
 }
+# --8<-- [end:gcp-bq-conn-doc-ai]
 
+# --8<-- [start:gcp-bq-conn-vertex-ai]
 resource "google_bigquery_connection" "vertex_ai" {
   connection_id = "vertex_ai"
   location      = "US"
   cloud_resource {}
 }
+# --8<-- [end:gcp-bq-conn-vertex-ai]
+
 
 resource "google_document_ai_processor" "layout_parser_processor" {
   location     = "us"
