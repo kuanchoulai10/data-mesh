@@ -1,3 +1,4 @@
+# --8<-- [start:bigquery]
 resource "aws_iam_policy" "bigquery" {
   name = "bigquery-policy"
 
@@ -54,3 +55,4 @@ resource "aws_iam_role_policy_attachment" "main" {
   role       = aws_iam_role.bigquery.name
   policy_arn = aws_iam_policy.bigquery.arn
 }
+# --8<-- [end:bigquery]

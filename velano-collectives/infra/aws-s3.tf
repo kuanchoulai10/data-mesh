@@ -13,4 +13,11 @@ module "aws_s3_bucket_velano_collectives" {
 
   bucket = "velano-collectives-${random_string.velano_collectives_suffix.result}"
 }
+
+resource "aws_s3_object" "products" {
+  bucket = module.aws_s3_bucket_velano_collectives.s3_bucket_id
+  key    = "products.csv"
+  source = "../data/products.csv"
+}
+
 # --8<-- [end:velano-collectives]

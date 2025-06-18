@@ -7,9 +7,13 @@
 
 ## Create Amazon S3 Bucket and Upload Data
 
-- Amazon S3 bucket name: `kcl-bigquery`
-- Region: `us-west-2`
-- Data: `products.csv` (sample data)
+Create an Amazon S3 bucket in the `us-west-2` to store the data that you want to query with BigQuery. 
+
+```terraform title="aws-s3.tf"
+--8<-- "velano-collectives/infra/aws-s3.tf:velano-collectives"
+```
+
+`products.csv` is a sample data file that you can upload to the S3 bucket.
 
 ## Connect to Amazon S3
 
@@ -27,15 +31,15 @@ See [Connect to Amazon S3](https://cloud.google.com/bigquery/docs/omni-aws-creat
 
 After completing these steps, the AWS IAM policy and role would look like this:
 
-```terraform linenums="1" hl_lines="1 11 12 17 19 20 28 39 41 44 53"
---8<-- "infra/bq-aws-s3.tf:aws-iam-policy-role-bq-omni-conn"
+```terraform title="aws-iam.tf" linenums="1"
+--8<-- "velano-collectives/infra/aws-iam.tf:bigquery"
 ```
 
 And the BigQuery connection would look like this:
 
 
-```terraform linenums="1" hl_lines="1 6 12"
---8<-- "infra/bq-aws-s3.tf:gcp-bq-conn"
+```terraform title="gcp-bq-conns.tf" linenums="1"
+--8<-- "velano-collectives/infra/gcp-bq-conns.tf:aws"
 ```
 
 ---
@@ -45,7 +49,7 @@ And the BigQuery connection would look like this:
 ### Create a Dataset
 
 ```sql 
-create schema if not exist products_aws
+create schema if not exists products_aws
 options (
   location = 'aws-us-west-2'
 )
@@ -56,14 +60,14 @@ options (
 
 ```sql
 create external table products_aws.products
-with connection `aws-us-west-2.bigquery-omni-aws-connection`
+with connection `aws-us-west-2.aws`
 options (
   format = "csv",
-  uris = ["s3://kcl-bigquery/*.csv"],
-  max_staleness = 0,
-  metadata_cache_mode = 'AUTOMATIC'
-);
+  uris = ["s3://velano-collectives-n1y3/products.csv"]
+)
 ```
+
+![](static/products.png)
 
 ---
 
@@ -81,10 +85,11 @@ After you have the necessary permissions, you can query the table to see the dat
 select
   *,
   _FILE_NAME AS file_name
-from `kcl-tw-data-7c9b.products_aws.products`
+from `velano-collective-ac8f.products_aws.products`
 ```
 
 
+![](static/products-table.png)
 ## References
 
 - [Connect to Amazon S3](https://cloud.google.com/bigquery/docs/omni-aws-create-connection)

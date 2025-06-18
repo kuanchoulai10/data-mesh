@@ -18,7 +18,7 @@ resource "google_bigquery_connection" "aws" {
 
 # --8<-- [start:gcs]
 resource "google_bigquery_connection" "gcs" {
-  connection_id = "bq-object-tables"
+  connection_id = "gcs"
   location      = "US"
   cloud_resource {}
 }
