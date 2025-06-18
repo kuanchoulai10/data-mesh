@@ -1,7 +1,7 @@
-data "google_organization" "org" {
+data "google_organization" "main" {
   domain = "kcl10.com"
 }
 
-data "google_billing_account" "kcl" {
+data "google_billing_account" "main" {
   display_name = "KCL"
 }
