@@ -1,0 +1,92 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Ceramic Mug",
+    "filename": "1.png",
+    "filepath": "./1.png",
+    "prompt": "A professional product photography of a olive ceramic mug by Muji,   designed for wearables category. A premium ceramic mug crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-gm3EcwCCz57WiRAWR6Z4JfWM.png?st=2025-06-18T05%3A34%3A00Z&se=2025-06-18T07%3A34%3A00Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T06%3A34%3A00Z&ske=2025-06-19T06%3A34%3A00Z&sks=b&skv=2024-08-04&sig=SdhjqWre3xVe5QKnYZgLm4wea7TBzpPkQNOUkB3sEiE%3D"
+  },
+  {
+    "product_id": 2,
+    "product_name": "Wall Clock",
+    "filename": "2.png",
+    "filepath": "./2.png",
+    "prompt": "A professional product photography of a white wall clock by Normann,   designed for wearables category. A premium wall clock crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-NrsJtJAuPROmF4uIRQHOzaFh.png?st=2025-06-18T05%3A34%3A23Z&se=2025-06-18T07%3A34%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-17T21%3A11%3A57Z&ske=2025-06-18T21%3A11%3A57Z&sks=b&skv=2024-08-04&sig=rU7eY7xr4RNADuxwhv8poa6%2BJB6W9TzHdpPPX9MiovA%3D"
+  },
+  {
+    "product_id": 3,
+    "product_name": "Leather Pouch",
+    "filename": "3.png",
+    "filepath": "./3.png",
+    "prompt": "A professional product photography of a charcoal leather pouch by Muji,   designed for wearables category. A premium leather pouch crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-ralFijdO3kWIHOnBAGhQlvB3.png?st=2025-06-18T05%3A34%3A46Z&se=2025-06-18T07%3A34%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-17T21%3A30%3A03Z&ske=2025-06-18T21%3A30%3A03Z&sks=b&skv=2024-08-04&sig=jFc2S9Sawit0aL1ZNyuZLBluF3rHIFZK8Uw9O0pA1No%3D"
+  },
+  {
+    "product_id": 4,
+    "product_name": "Ceramic Mug",
+    "filename": "4.png",
+    "filepath": "./4.png",
+    "prompt": "A professional product photography of a natural ceramic mug by Ferm Living,   designed for home category. A premium ceramic mug crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-Aj2BGHDvw4VpHGP8oFqwTDGJ.png?st=2025-06-18T05%3A35%3A04Z&se=2025-06-18T07%3A35%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T00%3A56%3A15Z&ske=2025-06-19T00%3A56%3A15Z&sks=b&skv=2024-08-04&sig=Mdc8qbYnK/hAd6S9P7LhXBiY2BAQCIHv6CbiTEtfdJM%3D"
+  },
+  {
+    "product_id": 5,
+    "product_name": "Linen Throw",
+    "filename": "5.png",
+    "filepath": "./5.png",
+    "prompt": "A professional product photography of a natural linen throw by Normann,   designed for wearables category. A premium linen throw crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-3q9a9mrkBpon7AVS70iVBnME.png?st=2025-06-18T05%3A35%3A25Z&se=2025-06-18T07%3A35%3A25Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T06%3A35%3A25Z&ske=2025-06-19T06%3A35%3A25Z&sks=b&skv=2024-08-04&sig=sxLPm8TiQ0avNZpxloEuTYRQtLseR5LnXMcVGknuwkk%3D"
+  },
+  {
+    "product_id": 6,
+    "product_name": "Leather Pouch",
+    "filename": "6.png",
+    "filepath": "./6.png",
+    "prompt": "A professional product photography of a black leather pouch by Aesop,   designed for tools category. A premium leather pouch crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-RgAFtvbg7TN9vGQho9xjSohW.png?st=2025-06-18T05%3A35%3A42Z&se=2025-06-18T07%3A35%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-17T21%3A09%3A49Z&ske=2025-06-18T21%3A09%3A49Z&sks=b&skv=2024-08-04&sig=yd9KDPYdkh73b56ZHEcIv//foWItqgCZdSvsuSxG7sQ%3D"
+  },
+  {
+    "product_id": 7,
+    "product_name": "Notebook Set",
+    "filename": "7.png",
+    "filepath": "./7.png",
+    "prompt": "A professional product photography of a natural notebook set by Ferm Living,   designed for wearables category. A premium notebook set crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-kMU1Y7FoTntDt3ThWuNsC7bK.png?st=2025-06-18T05%3A36%3A04Z&se=2025-06-18T07%3A36%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T05%3A14%3A55Z&ske=2025-06-19T05%3A14%3A55Z&sks=b&skv=2024-08-04&sig=o5SHQjSeJdjQLtBCrE3Kw6gaxudoKv90V76mZmAqtxU%3D"
+  },
+  {
+    "product_id": 8,
+    "product_name": "Notebook Set",
+    "filename": "8.png",
+    "filepath": "./8.png",
+    "prompt": "A professional product photography of a natural notebook set by Aesop,   designed for wearables category. A premium notebook set crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-RlqNUvt4okqmpcIwB1BpKmR4.png?st=2025-06-18T05%3A36%3A26Z&se=2025-06-18T07%3A36%3A26Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T01%3A23%3A30Z&ske=2025-06-19T01%3A23%3A30Z&sks=b&skv=2024-08-04&sig=01JkoflOPjxKlfGaGln9vFjtBP7bjQtZeFikx8lNId4%3D"
+  },
+  {
+    "product_id": 9,
+    "product_name": "Ceramic Mug",
+    "filename": "9.png",
+    "filepath": "./9.png",
+    "prompt": "A professional product photography of a white ceramic mug by Ferm Living,   designed for tools category. A premium ceramic mug crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-W55g88Lj1lyIgBA5hPXcH9Ci.png?st=2025-06-18T05%3A36%3A45Z&se=2025-06-18T07%3A36%3A45Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T04%3A38%3A11Z&ske=2025-06-19T04%3A38%3A11Z&sks=b&skv=2024-08-04&sig=t9QZ7EMqW4in6W5VXpThklKuXGCMgYZ/pc7pG14zlQA%3D"
+  },
+  {
+    "product_id": 10,
+    "product_name": "Aroma Diffuser",
+    "filename": "10.png",
+    "filepath": "./10.png",
+    "prompt": "A professional product photography of a black aroma diffuser by HAY,   designed for living category. A premium aroma diffuser crafted with attention to detail.   The product should be photographed on a clean, minimalist background with professional lighting.   High-quality, commercial product shot, studio lighting, clean aesthetic,   modern design, premium materials, photorealistic.",
+    "status": "success",
+    "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-oesSLnedUALue6M2hX4amGek/user-CkmzzQFffeknDjSuQywlV0Ys/img-JUGOXkwZIpgch3fTlAbXsUeY.png?st=2025-06-18T05%3A37%3A03Z&se=2025-06-18T07%3A37%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T01%3A46%3A27Z&ske=2025-06-19T01%3A46%3A27Z&sks=b&skv=2024-08-04&sig=gbpMisBx1gC8LCeT8I6tW5DuEj5P%2BBtZq0iwKdLL1fA%3D"
+  }
+]
