@@ -10,7 +10,7 @@
 Create an Amazon S3 bucket in the `us-west-2` to store the data that you want to query with BigQuery. 
 
 ```terraform title="aws-s3.tf"
---8<-- "velano-collectives/infra/aws-s3.tf:velano-collectives"
+--8<-- "./data-mesh/velano-collectives/infra/aws-s3.tf:velano-collectives"
 ```
 
 `products.csv` is a sample data file that you can upload to the S3 bucket.
@@ -32,14 +32,14 @@ See [Connect to Amazon S3](https://cloud.google.com/bigquery/docs/omni-aws-creat
 After completing these steps, the AWS IAM policy and role would look like this:
 
 ```terraform title="aws-iam.tf" linenums="1"
---8<-- "velano-collectives/infra/aws-iam.tf:bigquery"
+--8<-- "./data-mesh/velano-collectives/infra/aws-iam.tf:bigquery"
 ```
 
 And the BigQuery connection would look like this:
 
 
 ```terraform title="gcp-bq-conns.tf" linenums="1"
---8<-- "velano-collectives/infra/gcp-bq-conns.tf:aws"
+--8<-- "./data-mesh/velano-collectives/infra/gcp-bq-conns.tf:aws"
 ```
 
 ---

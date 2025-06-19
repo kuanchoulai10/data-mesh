@@ -11,7 +11,7 @@
 Create a Google Cloud Storage bucket to store product images. The bucket should be in the `us` region and named `velano-collectives-n1y3`. You can use the following Terraform code to create the bucket:
 
 ```terraform
---8<-- "./velano-collectives/infra/gcp-gcs.tf:velano-collectives"
+--8<-- "./data-mesh/velano-collectives/infra/gcp-gcs.tf:velano-collectives"
 ```
 
 After creating the bucket, upload your product images to it. You can use the `gsutil` command-line tool to copy images from your local machine to the Cloud Storage bucket:
@@ -33,7 +33,7 @@ options(
 Create a BigQuery connection to the Cloud Storage bucket containing the images:
 
 ```terraform
---8<-- "./velano-collectives/infra/gcp-bq-conns.tf:gcs"
+--8<-- "./data-mesh/velano-collectives/infra/gcp-bq-conns.tf:gcs"
 ```
 
 The connection's service account must have the following roles:
@@ -62,7 +62,7 @@ options(
 Create a BigQuery connection to the Cloud Vision API:
 
 ```terraform
---8<-- "./velano-collectives/infra/gcp-bq-conns.tf:cloud-vision"
+--8<-- "./data-mesh/velano-collectives/infra/gcp-bq-conns.tf:cloud-vision"
 ```
 
 After creating the connection, you can create a remote model that uses the Cloud Vision API to annotate images:
